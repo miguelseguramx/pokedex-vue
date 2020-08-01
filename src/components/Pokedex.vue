@@ -67,13 +67,11 @@ export default {
           this.loading = false
         })
         .catch(err => {
-          console.log(err)
           this.loading = false
           this.error = true
         })
     },
     handleSubmit (pokemonId) {
-      console.log('A ver', pokemonId)
       if (pokemonId !== '') {
         this.error = false
         this.loading = true
