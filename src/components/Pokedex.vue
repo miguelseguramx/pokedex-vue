@@ -3,9 +3,8 @@
     <div class="pokedex-left">
       <div class="pokedex-left-top">
         <div :class="
-          loading
-            ? 'light is-sky is-big'
-            : 'light is-sky is-big in-animated'
+          'light is-sky is-big'
+          loading && 'is-animated'
         "/>
         <div class="light is-red" />
         <div class="light is-yellow" />
