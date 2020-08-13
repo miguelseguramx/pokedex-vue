@@ -2,10 +2,7 @@
   <div class="pokedex">
     <div class="pokedex-left">
       <div class="pokedex-left-top">
-        <div :class="
-          'light is-sky is-big'
-          loading && 'is-animated'
-        "/>
+        <div class="light is-sky is-big" :class="loading && 'is-animated'"/>
         <div class="light is-red" />
         <div class="light is-yellow" />
         <div class="light is-green" />
